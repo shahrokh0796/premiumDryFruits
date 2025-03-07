@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-app-api",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --config webpack.server.js",
+    "start": "node build/server.bundle.js"
+  },
+  "author": "Said Shahrokh Temori",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ignore-styles": "^5.0.1",
+    "mongoose": "^8.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

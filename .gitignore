@@ -1,0 +1,6 @@
+# Ignore all log files no matter where they are
+**/*.log
+# Ignore all "node_modules" directories anywhere in the project
+**/node_modules/
+# Ignore all .env files no matter their location
+**/.env
